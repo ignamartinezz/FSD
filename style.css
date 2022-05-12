@@ -1,0 +1,29 @@
+#titulo{
+    color: tomato;
+}
+
+.texto{
+    color:brown;
+}
+p.especial{
+    color: mediumseagreen;
+}
+
+div p{
+    color:aquamarine;
+}
+
+*{
+    font-size: 24px;
+    color: red;
+}
+
+/*comentario*/
+/*
+O asi
+asi
+*/
+
+.color{
+    color: maroon;
+}
