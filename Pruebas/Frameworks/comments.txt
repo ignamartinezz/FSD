@@ -1,0 +1,34 @@
+
+<!-- <body>
+    <div class="container">  todo dentro de un container para hacer grids
+        <div class="row">
+            <div class="col-1 border">1</div>
+            <div class="col-1 border">2</div>
+            <div class="col-1 border">3</div>
+            <div class="col-1 border">4</div>
+            <div class="col-1 border">5</div>
+            <div class="col-1 border">6</div>
+            <div class="col-1 border">7</div>
+            <div class="col-1 border">8</div>
+            <div class="col-1 border">9</div>
+            <div class="col-1 border">10</div>
+            <div class="col-1 border">11</div>
+            <div class="col-1 border">12</div>
+        </div>   
+        <div class="row">
+            <div class="col-4 border">4</div>
+            <div class="col-4 border">4</div>
+            <div class="col-4 border">4</div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 border">3</div>  Siempre se empieza con un col sin apellido
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 border">3</div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 border">3</div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 border">3</div>
+            se repite el sm con el md entonces podemso borrar el md
+            <div class="col-12 col-md-6 border">12</div>
+        </div>
+    </div>
+</body> -->
+
+

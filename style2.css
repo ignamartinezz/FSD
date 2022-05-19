@@ -1,0 +1,23 @@
+body{
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.preamble h3{
+    display: none; 
+    /* color: beige; */
+    /* opacity: 0; */
+}
+
+h2,
+h3,
+h4 {
+    /* position: fixed; */
+    color: black;
+    background-color: aliceblue;
+    padding: 10px 10px 10px 10px;
+    /* padding-left: 40%;  */
+    
+    text-align: center;
+    float: left;
+}

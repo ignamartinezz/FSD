@@ -1,0 +1,89 @@
+#titulo{
+    color: tomato;
+}
+
+.texto{
+    color:brown;
+}
+p.especial{
+    color: mediumseagreen;
+}
+
+div p{
+    color:aquamarine;
+}
+
+*{
+    font-size: 24px;
+    color: brown;
+}
+
+/*comentario*/
+/*
+O asi
+asi
+*/
+
+.color{
+    border: 5px slateblue;
+}
+
+
+.margen{
+    color: black;
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 10px;
+    border: solid 2px black;
+    height: 50px;
+    width: 50px;
+    overflow: scroll;
+
+}
+.texto{
+    text-align: justify;
+    text-decoration: dotted;
+    text-shadow: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fondo{
+    background-color: rgb(11, 179, 171);
+    height: 100px;
+    opacity: 0.3; 
+    /* background-image: ;
+    background-size: contain; */
+
+}
+
+
+a:link{
+    color: beige;
+}
+a:visited{ /* ya visitados*/
+    color: grey;
+}
+a:hover{ /*pasar mouse x encima*/
+    color: yellow;
+}
+a:active{ /*USAR EN ESTE ORDEN*/
+    color:red;
+}
+
+ul{
+    background-color: cyan;
+    width: 300px;
+    list-style-type: decimal;
+    /* padding-left: 100px; */
+    text-align: center;
+
+}
+.asidee{
+    background-color: beige;
+    display: block;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float:inline-end;
+    font-style: italic;
+}
