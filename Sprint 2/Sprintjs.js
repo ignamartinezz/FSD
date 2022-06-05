@@ -7,7 +7,7 @@ let aporte;
 
 function addNombre(){
     let nombre=document.getElementById("nombreInput").value;
-    let money=document.getElementById("moneyInput")
+    let money=parseInt(document.getElementById("moneyInput").value);
     nombreArray.push(nombre);
     moneyArray.push(money);
     calculo();
@@ -35,9 +35,13 @@ function calculo(){
 }
 
 function imprimirNombres(){   
+    let elemento=document.getElementById("elemento");
+    let elementototal=document.getElementById("total");
+    let elementoaporte=document.getElementById("aporte")
+    elemento.innerHTML="";
     for(let nomb of nombreArray){
-        let elemento= document.createElement("p");
-        elemento.innerHTML= nomb;
-        nombrehtml.appendChild(elemento);
+        elemento.innerHTML+=" " +nomb;
     }
+    elementototal.innerHTML="Total: " + total;    
+    elementoaporte.innerHTML="Aporte de cada integrante: "+ aporte;
 }
