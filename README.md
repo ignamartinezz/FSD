@@ -1,4 +1,4 @@
-# [APP DE GASTOS ATLAS](https://github.com/AUCB21/ITBANK-maqueta)
+# [APP DE GASTOS ATLAS](https://github.com/Whoolister/FSD-SPRINT-2.git)
 Projecto de armado de Aplicación de Gastos usando htmls, css y js.
 
 |Integrantes                     |Github                                             |
