@@ -1,4 +1,3 @@
-
 let nombreArray=[];
 let moneyArray=[];
 let nombrehtml=document.getElementById("printArea")
@@ -19,7 +18,7 @@ function borrarNombre(){
     for(let nomb of nombreArray){
         if(nomb==nombre){
             nombreArray.splice(nombreArray.indexOf(nomb));
-            moneyArray.splice(nombreArray.indexOf(nomb))
+            moneyArray.splice(nombreArray.indexOf(nomb));
         }
     }
     calculo();
@@ -37,10 +36,10 @@ function calculo(){
 function imprimirNombres(){   
     let elemento=document.getElementById("elemento");
     let elementototal=document.getElementById("total");
-    let elementoaporte=document.getElementById("aporte")
+    let elementoaporte=document.getElementById("aporte");
     elemento.innerHTML="";
-    for(let nomb of nombreArray){
-        elemento.innerHTML+=" " +nomb;
+    for(let i in nombreArray){
+        elemento.innerHTML+= nombreArray[i]+": $"+moneyArray[i] + "<br>";
     }
     elementototal.innerHTML="Total: " + total;    
     elementoaporte.innerHTML="Aporte de cada integrante: "+ aporte;
