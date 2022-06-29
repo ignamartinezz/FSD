@@ -1,13 +1,34 @@
-let contenido= document.querySelector("#contenido");
+let ids = [
+	"dolaroficial",
+	"dolarblue",
+	"dolarsoja",
+	"dolarccl",
+	"dolarbolsa",
+    "bitcoin",
+	"dolarturista",
+    "dolar",
+	"argentina",
+];
 
-function traer(){
+function api_request(){
     fetch('https://www.dolarsi.com/api/api.php?type=valoresprincipales')
-    .then(res=>res.json())
+    .then(response=>response.json())
     .then(data=>{
-        console.log(data)
-        // contenido.innerHTML=`<img src="${data.results['0'].picture.large}" width="100px" class="img-fluid rounded-circle">
-        // <p>Nombre: ${data.results['0'].name.last}</p>`
+        for(let i in ids){
+            console.log(data[i].casa.nombre);
+            let contenido= document.getElementById(ids[i]);            
+            contenido.innerHTML=`${data[i].casa.nombre}<br>
+            <p>Precio Compra: ${data[i].casa.compra}</p><br>
+            <p>Precio Venta: ${data[i].casa.venta}</p>`;      
+        }      
     })
-//transformamos el formato txt en algo que podamos leer
-    
 }
+
+function main(){
+    setInterval(()=>{
+        api_request();
+    },50000)
+}
+
+api_request();
+main();
